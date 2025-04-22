@@ -10,7 +10,7 @@ An LLM-powered research assistant that uses LangChain, OpenAI, and FAISS to answ
 - Interactive Streamlit UI
 
 
-🛠️ Setup Instructions:
+## 🛠️ Setup Instructions:
 
 1. Clone the Repository
 - git clone https://github.com/Tiyasa-Saha/research_article_llm_tool.git
@@ -28,6 +28,7 @@ An LLM-powered research assistant that uses LangChain, OpenAI, and FAISS to answ
 4. Add Your API Key
 - Create a .env file in the root of the project:
 - OPENAI_API_KEY=your_openai_key_here
+
 ⚠️ Make sure to add .env to .gitignore.
 
 5. Run the Streamlit App
