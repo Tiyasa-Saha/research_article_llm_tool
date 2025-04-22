@@ -56,7 +56,7 @@ if process_url_clicked:
 col1, col2 = st.columns([5, 1])  # Wider input, narrower button
 
 with col1:
-    query = st.text_input("Question:", placeholder="Ask a cancer-related question...", label_visibility="collapsed")
+    query = st.text_input("Question:", placeholder="Ask an article-related question...", label_visibility="collapsed")
 
 with col2:
     search_clicked = st.button("🔍", help="Search")
